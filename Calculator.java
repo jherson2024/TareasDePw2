@@ -21,6 +21,11 @@ public double dividir(int a, int b) {
     double	cociente=a/b;
 	return cociente;
 }
+
+public int mod(int a, int b){ 
+	int modulo = a%b;
+	return modulo;
+}
 public double raiz(int a) {
     
 	return Math.sqrt(a);
