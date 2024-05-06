@@ -1,5 +1,9 @@
 
+import java.util.*;
+// import java..*;
 public class Calculator {
+
+
 public double sumar(int a, int b) {
     double	suma=a+b;
 	return suma;
@@ -16,5 +20,8 @@ public double dividir(int a, int b) {
     double	cociente=a/b;
 	return cociente;
 }
-
+public double raiz(int a) {
+    
+	return Math.sqrt(a);
+}
 }
